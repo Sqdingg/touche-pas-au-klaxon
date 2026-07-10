@@ -1,0 +1,24 @@
+{
+    "name": "sqding/touche-pas-au-klaxon",
+    "description": "Application de covoiturage inter-sites",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sqdingg",
+            "email": "sqdingg@gmail.com"
+        }
+    ],
+    "require": {
+        "izniburak/router": "^3.1",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5",
+        "phpstan/phpstan": "^2.2"
+    }
+}
